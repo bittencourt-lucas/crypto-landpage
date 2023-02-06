@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: var(--white);
+
+  span {
+    &:not(:last-child) {
+      padding-right: 2rem;
+    }
+  }
+}
